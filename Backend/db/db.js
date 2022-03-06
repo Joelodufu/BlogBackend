@@ -10,7 +10,7 @@ let mong = mongoose.connect(url, {
     useUnifiedTopology: true
 }, (err) => {
     if (!err) {
-        console.log('MongoDB Connection Succeeded.')
+        console.log('MongoDB COnnected to vincents database.')
     } else {
         console.log('Error in DB connection: ' + err)
     }
